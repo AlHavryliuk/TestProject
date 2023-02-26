@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <nav class="side-menu">
+            <div class="side-menu__logo">
+                <svg width="24" height="24">
+                    <use href="images/sprites.svg#icon-header"></use>
+                </svg>
+                <h1>Dashboard</h1>
+            </div>
+
+            <ul class="side-menu__links">
+                <li>
+                    <svg width="24" height="24">
+                        <use href="images/sprites.svg#icon-dashboard"><span>Dashboard</span></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg width="24" height="24">
+                        <use href="images/sprites.svg#icon-products"><span>Product</span></use>
+                    </svg>
+                    <svg class="vector-icon" width="4" height="8">
+                        <use href="images/sprites.svg#icon-vector"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg width="24" height="24">
+                        <use href="images/sprites.svg#icon-custumer"><span>Customers</span></use>
+                    </svg><svg class="vector-icon" width="4" height="8">
+                        <use href="images/sprites.svg#icon-vector"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg width="24" height="24">
+                        <use href="images/sprites.svg#icon-wallet"><span>Income</span></use>
+                    </svg>
+                    <svg class="vector-icon" width="4" height="8">
+                        <use href="images/sprites.svg#icon-vector"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg width="24" height="24">
+                        <use href="images/sprites.svg#icon-discount"><span>Promote</span></use>
+                    </svg>
+                    <svg class="vector-icon" width="4" height="8">
+                        <use href="images/sprites.svg#icon-vector"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg width="24" height="24">
+                        <use href="images/sprites.svg#icon-help"><span>Help</span></use>
+                    </svg>
+                    <svg class="vector-icon" width="4" height="8">
+                        <use href="images/sprites.svg#icon-vector"></use>
+                    </svg>
+                </li>
+            </ul>
+            <div class="autorization">
+                <img src="./images/Ellipse 8.png" alt="">
+                <div class="authorization-info">
+                    <h4 class="autorization__title">Evano</h4>
+                    <p class="autorization__subTitle">Project Manager</p>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h1 class="title">Hello Evano 👋🏼,</h1>
+            <div class="customer-block">
+                <div class="customer-block__header">
+                    <div class="customer-block__title">
+                        <h2 class="customer-block__title-main">All Customers</h2>
+                        <p class="customer-block__title-second">Active Members</p>
+                    </div>
+                    <form class="customer-block__form">
+                        <input type="text" placeholder="Search">
+                        <svg width="24" height="24" class="customer-block__form-icon">
+                            <use href="images/sprites.svg#icon-search"></use>
+                        </svg>
+                    </form>
+
+                </div>
+                <table class="customer-table">
+                    <thead>
+                        <tr>
+                            <td>Customer Name</td>
+                            <td>Company</td>
+                            <td>Phone Number</td>
+                            <td>Email</td>
+                            <td>Country</td>
+                            <td>Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td><button data-active=true>Active</button></td>
+                        </tr>
+                        <tr>
+                            <td>Floyd Miles</td>
+                            <td>Yahoo</td>
+                            <td>(205) 555-0100</td>
+                            <td>floyd@yahoo.com</td>
+                            <td>Kiribati</td>
+                            <td><button data-active=true>Active</button></td>
+                        </tr>
+                        <tr>
+                            <td>Ronald Richards</td>
+                            <td>Adobe</td>
+                            <td>(302) 555-0107</td>
+                            <td>ronald@adobe.com</td>
+                            <td>Israel</td>
+                            <td><button data-active=true>Active</button></td>
+                        </tr>
+                        <tr>
+                            <td>Marvin McKinney</td>
+                            <td>Tesla</td>
+                            <td>(252) 555-0126</td>
+                            <td>marvin@tesla.com</td>
+                            <td>Iran</td>
+                            <td><button data-active=true>Active</button></td>
+                        </tr>
+                        <tr>
+                            <td>Jerome Bell</td>
+                            <td>Google</td>
+                            <td>(629) 555-0129</td>
+                            <td>jerome@google.com</td>
+                            <td>Réunion</td>
+                            <td><button data-active=true>Active</button></td>
+                        </tr>
+                        <tr>
+                            <td>Kathryn Murphy</td>
+                            <td>Microsoft</td>
+                            <td>(406) 555-0120</td>
+                            <td>kathryn@microsoft.com</td>
+                            <td>Curaçao</td>
+                            <td><button data-active=true>Active</button></td>
+                        </tr>
+                        <tr>
+                            <td>Jacob Jones</td>
+                            <td>Yahoo</td>
+                            <td>(208) 555-0112</td>
+                            <td>jacob@yahoo.com</td>
+                            <td>Brazil</td>
+                            <td><button data-active=true>Active</button></td>
+                        </tr>
+                        <tr>
+                            <td>Kristin Watson</td>
+                            <td>Facebook</td>
+                            <td>(704) 555-0127</td>
+                            <td>kristin@facebook.com</td>
+                            <td>Åland Islands</td>
+                            <td><button data-active=true>Active</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="pagination-block">
+                    <p class="pagination__text-info">Showing data 1 to 8 of 256K entries</p>
+                    <ul class="pagination__page-list">
+                        <li><</li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>...</li>
+                        <li>40</li>
+                        <li>></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

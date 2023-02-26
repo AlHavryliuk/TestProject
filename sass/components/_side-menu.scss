@@ -1,0 +1,68 @@
+.side-menu {
+  width: 306px;
+  height: 100vh;
+  padding: 36px 28px;
+  position: relative;
+
+  @include mobile {
+    height: auto;
+    width: 100%;
+    
+  }
+}
+
+.side-menu__logo {
+  display: flex;
+  align-items: center;
+  gap: 11.45px;
+
+  & h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+  }
+}
+
+.side-menu__links {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  & > li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 13px;
+    transition: all 0.3s;
+    border-radius: 8px;
+
+    & svg {
+      fill: var(--icon-color);
+      stroke: var(--icon-color);
+    }
+
+    &:hover {
+      background: #5932ea;
+    }
+    &:hover span,
+    &:hover svg {
+      color: white;
+      fill: white;
+    }
+
+    &:hover svg {
+      fill: white;
+      stroke: white;
+    }
+  }
+
+  & span {
+    font-size: 14px;
+    color: var(--side-text-color);
+  }
+}
+
+.vector-icon {
+  margin-left: auto;
+}

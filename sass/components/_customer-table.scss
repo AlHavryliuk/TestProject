@@ -1,0 +1,55 @@
+.customer-table {
+  width: 100%;
+  font-size: 12px;
+  line-height: 21px;
+  border-collapse: collapse;
+
+  & > thead {
+    color: #b5b7c0;
+
+    & tr {
+      @include mobile {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  & tr {
+    // height: 69px;
+
+    border-bottom: 1px solid #eeeeee;
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+    }
+
+    & td {
+      padding: 24px 0;
+    }
+
+    & td:nth-of-type(6) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include mobile {
+        display: block;
+      }
+    }
+  }
+
+  & button {
+    padding: 4px 18px;
+    color: #00b087;
+    border: 1px solid #00b087;
+    border-radius: 4px;
+    font-size: 14px;
+
+    &.active {
+      color: #df0404;
+      border: 1px solid #df0404;
+    }
+  }
+}
